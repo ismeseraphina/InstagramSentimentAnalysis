@@ -3,7 +3,7 @@
 
 A local-first Python package for follower-list analysis, with optional visible
 Chrome collection. No auto follow/unfollow, stealth options or credential export.
-AI usage: Debugging code and organising tasks only
+AI usage: Debugging code and organising tasks，deployment assistance only
 
 ## Motivation
 
