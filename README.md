@@ -41,8 +41,12 @@ are needed. Selenium Manager handles driver discovery/setup and may download
 components. Do not assume hosted JupyterHub can display a live browser.
 Offline functions have no runtime third-party dependencies.
 
-After an actual release, install the CONFIRMED distribution name from PyPI;
-no existing publication is claimed in this document.
+Install from PyPI (https://pypi.org/project/InstagramFollowerAnalysis/):
+
+```sh
+pip install InstagramFollowerAnalysis==0.2.0
+pip install "InstagramFollowerAnalysis[live]"  # optional live collector
+```
 
 ## Offline CLI
 
