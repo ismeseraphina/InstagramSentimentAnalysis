@@ -3,7 +3,7 @@
 
 A local-first Python package for follower-list analysis, with optional visible
 Chrome collection. No auto follow/unfollow, stealth options or credential export.
-AI usage: Debugging code and organsing tasks only
+AI usage: Debugging code and organising tasks only
 
 ## Motivation
 
@@ -144,8 +144,8 @@ assumptions; sorting output adds O(k log k).
 ## Validation, teamwork and release
 
 See TEST_RESULTS.txt for executed checks and untested parts. Real Instagram
-login/collection was NOT tested here. CI is configured but its execution is not
-claimed. See CONTRIBUTING.md, RELEASE.md, docs/DEMO.md and docs/QA.md.
+login/collection was NOT tested here. A manual GitHub Actions workflow publishes to PyPI via Trusted Publishing.
+See CONTRIBUTING.md, docs/DEMO.md and docs/QA.md.
 Follow course AI disclosure rules and report actual team contributions honestly.
 
 ## License
