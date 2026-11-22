@@ -3,7 +3,7 @@ requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "igfollowchecker-mmm818"
+name = "InstagramFollowerAnalysis"
 version = "0.2.0"
 description = "Offline follower analysis with optional visible-browser collection"
 readme = "README.md"
