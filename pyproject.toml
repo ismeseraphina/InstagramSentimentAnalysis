@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "igfollowchecker-mmm818"
+version = "0.2.0"
+description = "Offline follower analysis with optional visible-browser collection"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = []
+
+[project.optional-dependencies]
+live = ["selenium>=4.10,<5"]
+
+[project.urls]
+Homepage = "https://github.com/Mmm818/IGFollowChecker"
+Repository = "https://github.com/Mmm818/IGFollowChecker"
+
+[project.scripts]
+igfollowchecker = "igfollowchecker.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
