@@ -1,3 +1,4 @@
+## CS1302A group project
  IGFollowChecker 0.2.0
 
 A local-first Python package for follower-list analysis, with optional visible
