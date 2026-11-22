@@ -16,8 +16,8 @@ dependencies = []
 live = ["selenium>=4.10,<5"]
 
 [project.urls]
-Homepage = "https://github.com/Mmm818/IGFollowChecker"
-Repository = "https://github.com/Mmm818/IGFollowChecker"
+Homepage = "https://github.com/ismeseraphina/InstagramSentimentAnalysis"
+Repository = "https://github.com/ismeseraphina/InstagramSentimentAnalysis"
 
 [project.scripts]
 igfollowchecker = "igfollowchecker.cli:main"
