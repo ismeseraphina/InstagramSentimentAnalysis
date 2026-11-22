@@ -1,0 +1,72 @@
+Python: 3.12.14 (main, Nov 18 2026, 01:36:36) [GCC 15.2.0]
+Source suite:
+test_analysis (test_package.Tests.test_analysis) ... ok
+test_bad_cli (test_package.Tests.test_bad_cli) ... ok
+test_bad_csv (test_package.Tests.test_bad_csv) ... ok
+test_bad_urls (test_package.Tests.test_bad_urls) ... ok
+test_cli_json (test_package.Tests.test_cli_json) ... ok
+test_csv (test_package.Tests.test_csv) ... ok
+test_dialog_stopping (test_package.Tests.test_dialog_stopping) ... ok
+test_diff (test_package.Tests.test_diff) ... ok
+test_duplicates (test_package.Tests.test_duplicates) ... ok
+test_empty (test_package.Tests.test_empty) ... ok
+test_empty_dialog_error (test_package.Tests.test_empty_dialog_error) ... ok
+test_export (test_package.Tests.test_export) ... ok
+test_extension (test_package.Tests.test_extension) ... ok
+test_invalid_json (test_package.Tests.test_invalid_json) ... ok
+test_invalid_names (test_package.Tests.test_invalid_names) ... ok
+test_json (test_package.Tests.test_json) ... ok
+test_missing (test_package.Tests.test_missing) ... ok
+test_no_mutation (test_package.Tests.test_no_mutation) ... ok
+test_normalize (test_package.Tests.test_normalize) ... ok
+test_output_and_no_overwrite (test_package.Tests.test_output_and_no_overwrite) ... ok
+test_profile_url (test_package.Tests.test_profile_url) ... ok
+test_txt_bom (test_package.Tests.test_txt_bom) ... ok
+test_wrapper (test_package.Tests.test_wrapper) ... ok
+test_wrong_iterable (test_package.Tests.test_wrong_iterable) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.010s
+
+OK
+
+Wheel and sdist built offline with installed setuptools backend.
+Fresh isolated venv, wheel installed with --no-index --no-deps, tested outside repo:
+test_analysis (test_package.Tests.test_analysis) ... ok
+test_bad_cli (test_package.Tests.test_bad_cli) ... ok
+test_bad_csv (test_package.Tests.test_bad_csv) ... ok
+test_bad_urls (test_package.Tests.test_bad_urls) ... ok
+test_cli_json (test_package.Tests.test_cli_json) ... ok
+test_csv (test_package.Tests.test_csv) ... ok
+test_dialog_stopping (test_package.Tests.test_dialog_stopping) ... ok
+test_diff (test_package.Tests.test_diff) ... ok
+test_duplicates (test_package.Tests.test_duplicates) ... ok
+test_empty (test_package.Tests.test_empty) ... ok
+test_empty_dialog_error (test_package.Tests.test_empty_dialog_error) ... ok
+test_export (test_package.Tests.test_export) ... ok
+test_extension (test_package.Tests.test_extension) ... ok
+test_invalid_json (test_package.Tests.test_invalid_json) ... ok
+test_invalid_names (test_package.Tests.test_invalid_names) ... ok
+test_json (test_package.Tests.test_json) ... ok
+test_missing (test_package.Tests.test_missing) ... ok
+test_no_mutation (test_package.Tests.test_no_mutation) ... ok
+test_normalize (test_package.Tests.test_normalize) ... ok
+test_output_and_no_overwrite (test_package.Tests.test_output_and_no_overwrite) ... ok
+test_profile_url (test_package.Tests.test_profile_url) ... ok
+test_txt_bom (test_package.Tests.test_txt_bom) ... ok
+test_wrapper (test_package.Tests.test_wrapper) ... ok
+test_wrong_iterable (test_package.Tests.test_wrong_iterable) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.010s
+
+OK
+
+Installed demo:
+{'counts': {'followers': 3, 'following': 3, 'mutuals': 2}, 'not_following_back': ['charlie'], 'fans': ['dora'], 'mutuals': ['alice', 'bob']}
+{'added': ['erin'], 'removed': ['bob'], 'unchanged_count': 2}
+
+Installed collect --help: exit 0.
+Offline tests passed without Selenium installed in verification venv.
+Live helper tests use fake drivers, not Instagram.
+NOT tested: Selenium installation, real Chrome/login/Instagram, Python 3.9 runtime, GitHub Actions, course JupyterHub, twine check or PyPI publication/name availability.
